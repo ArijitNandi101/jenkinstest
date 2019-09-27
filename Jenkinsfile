@@ -2,10 +2,14 @@ pipeline{
   agent any
   stages{
     stage("Start"){
-      echo "HEllO"
+      steps{
+        echo "HEllO"
+      }
     }
     stage("End"){
-      echo "WorLd"
+      steps{
+        echo "WorLd"
+      }
     }
   }
 }
